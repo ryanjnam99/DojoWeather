@@ -2,9 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 /* first row */
 header {
     display: flex;
+    width: 1000px;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
@@ -71,7 +78,6 @@ select {
     align-items: center;
     justify-content:center;
     font-family: cursive;
-    margin-bottom: 10px;
 }
 
 .today {
@@ -149,9 +155,9 @@ h3 {
 
 .disclaimer {
     height: 150px;
+    width: 1000px;
     display: flex;
     align-items: center;
-    margin: 0 100px;
     font-family: cursive;
     border: 2px solid black;
     position: fixed;
