@@ -62,7 +62,7 @@ select {
 
 }
 
-/* Third row */
+/* Third row for the weather forecast*/
 
 .predictions {
     height: 450px;
@@ -145,7 +145,7 @@ h3 {
     color: blue;
 }
 
-/* final row */
+/* final row for the cookie disclaimer*/
 
 .disclaimer {
     height: 150px;

@@ -2,6 +2,8 @@ function clickThis() {
         alert("Loading weather report...");
 }
 
+//Clicking on the city triggers this alert fucntion
+
 
 var temp = document.querySelector("#temp");
 var temp2 = document.querySelector("#temp2");
@@ -11,6 +13,8 @@ var temp5 = document.querySelector("#temp5");
 var temp6 = document.querySelector("#temp6");
 var temp7 = document.querySelector("#temp7");
 var temp8 = document.querySelector("#temp8");
+
+//variables that connect the given temperature to javascript
 
 
 
@@ -37,12 +41,16 @@ function convert(element) {
         }
 }
 
+//when adjusting the settings, this function will calculate to the selected temeprature value
+
 
 var cookie = document.querySelector(".disclaimer");
 
 function press(element) {
         cookie.remove();
 }
+
+//the cookie will disappear once clicked
 
 
 
