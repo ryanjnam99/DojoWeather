@@ -8,6 +8,87 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Dojoweather heading -->
+    <header>
+        <h1>Dojoweather</h1>
+        <ul class= "cities">
+            <li class="cities"><a href="#" onclick="clickThis(this)">Burbank</a></li>
+            <li class="cities"><a href="#" onclick="clickThis(this)">Chicago</a></li>
+            <li class="cities"><a href="#" onclick="clickThis(this)">Dallas</a></li>
+        </ul>
+    </header>
+    <!-- Settings featuring current choice of city San Jose -->
+    <!-- Class of settings serves as the container -->
+    <div class="settings"> 
+        <h2>San Jose</h2>
+        <div class="set-temp">
+            <p>Show temperature in</p>
+            <select name="temperature" id="pick" onchange="convert(this)">
+                <option>Celcius</option>
+                <option>Fahrenheit</option>
+            </select>
+        </div>
+    </div>
+    <!-- Weather projections -->
+    <div class="predictions">
+        <div class="today">
+            <div class="box">
+                <h3>Today</h3>
+                <img src="some_rain.png" alt="rain">
+                <div class="weather">some rain</div>
+                <ul class="whole-day">
+                    <li class="day" id="temp">24°</li>
+                    <li class="night" id="temp2">18°</li>
+                </ul>
+            </div>
+        </div>
+        <div class="tomorrow">
+            <div class="box">
+                <h3>Tomorrow</h3>
+                <img src="some_sun.png" alt="sun">
+                <div class="weather">some sun</div>
+                <ul class="whole-day">
+                    <li class="day" id="temp3">27°</li>
+                    <li class="night" id="temp4">19°</li>
+                </ul>
+            </div>
+        </div>
+        <div class="friday">
+            <div class="box">
+                <h3>Friday</h3>
+                <img src="some_clouds.png" alt="clouds">
+                <div class="weather" id="sol">some clouds</div>
+                <ul class="whole-day">
+                    <li class="day" id="temp5">21°</li>
+                    <li class="night" id="temp6">16°</li>
+                </ul>
+            </div>
+        </div>
+        <div class="saturday">
+            <div class="box">
+                <h3>Saturday</h3>
+                <img src="some_sun.png" alt="sun">
+                <div class="weather">some sun</div>
+                <ul class="whole-day">
+                    <li class="day" id="temp7">26°</li>
+                    <li class="night" id="temp8">21°</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Cookie disclaimer -->
+    <div class="disclaimer">
+        <img src="cookie.png" alt="cookie">
+        <div class="paragraph">
+            <h3>Stop! Cookie time</h3>
+            <p>We use cookies (sadly not the edible) to personalize 
+                content and ads, to
+                provide social media features and to analyse our traffic. 
+                <a href="#" class="read">Read more...</a>
+            </p>
+        </div>
+        <button class="accept" onclick="press(this)">Accept</button>
+    </div>
 <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* first row */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:lightskyblue; 
+    font-family: cursive;
+    color: white;
+}
+
+h1 {
+    margin-left: 50px;
+}
+
+
+.cities{
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* second row */
+
+.settings {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: cursive;
+    margin: 0 100px;
+    border-bottom: 2px solid grey;
+}
+
+h2 {
+    margin-left: 100px;
+}
+
+p{
+    margin-right: 50px;
+}
+
+.set-temp {
+    display:flex;
+    align-items: center;
+}
+
+select {
+    margin-right: 100px;
+    margin-top: 3px;
+
+}
+
+/* Third row */
+
+.predictions {
+    height: 450px;
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+.today {
+    height: 400px;
+    width: 300px;
+    margin: 0 10px 0 20px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(209, 202, 202);
+}
+
+.tomorrow{
+    height: 400px;
+    width: 300px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: rgb(209, 202, 202);
+}
+
+.friday {
+    height: 400px;
+    width: 300px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: rgb(209, 202, 202);
+}
+
+.saturday{
+    height: 400px;
+    width: 300px;
+    margin: 0 20px 0 10px;
+    text-align: center;
+    background-color: rgb(209, 202, 202);
+}
+
+img {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+.whole-day {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px;
+    font-size: larger;
+    margin-top: 50px;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.weather {
+    margin-bottom: 20px;
+}
+
+.day {
+    color: red;
+}
+
+.night {
+    color: blue;
+}
+
+/* final row */
+
+.disclaimer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+    font-family: cursive;
+    border: 2px solid black;
+    position: fixed;
+}
+
+.paragraph {
+    margin: 0 30px;
+}
+
+.accept {
+    margin-right: 40px;
+    display: flex;
+    box-shadow: 2px black;
+    font-family: cursive;
+}
+
+.read {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
