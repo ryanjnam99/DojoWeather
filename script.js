@@ -46,7 +46,7 @@ function convert(element) {
 
 var cookie = document.querySelector(".disclaimer");
 
-function press(element) {
+function press() {
         cookie.remove();
 }
 
